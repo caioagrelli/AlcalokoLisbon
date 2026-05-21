@@ -10,7 +10,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Check-in Autónomo', desc: 'Entre sozinho e sem complicações com o teclado numérico.' },
       { icon: '💻', title: 'Espaço de Trabalho', desc: 'Secretária, cadeira e Wi-Fi de alta velocidade em cada quarto.' },
-      { icon: '🛏️', title: 'Quarto Espaçoso', desc: 'Cama dupla + cama individual, guarda-roupa, cómoda, espelho e ventoinha.' },
+      { icon: '🛏️', title: 'Quarto Espaçoso', desc: 'Opção de duas camas de solteiro ou uma de casal e uma de solteiro — guarda-roupa, cómoda, espelho e ventoinha.' },
 
       { icon: '🚇', title: 'Metro à Porta', desc: 'Ao lado da estação de metro — Uber para o aeroporto por apenas €5.' },
       { icon: '🚲', title: 'Bicicleta Bem-vinda', desc: 'Pode trazer a sua bicicleta e guardá-la dentro do quarto.' },
@@ -42,7 +42,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Self Check-in', desc: 'Check yourself in easily with the keypad — no hassle.' },
       { icon: '💻', title: 'Workspace', desc: 'Desk, chair and high-speed Wi-Fi in every room.' },
-      { icon: '🛏️', title: 'Spacious Room', desc: 'Double bed + single bed, wardrobe, chest of drawers, mirror and fan.' },
+      { icon: '🛏️', title: 'Spacious Room', desc: 'Choice of two single beds or one double and one single bed — wardrobe, chest of drawers, mirror and fan.' },
 
       { icon: '🚇', title: 'Metro Nearby', desc: 'Right next to the metro — Uber to the airport for just €5.' },
       { icon: '🚲', title: 'Bike Welcome', desc: 'Bring your bike and store it inside your room.' },
@@ -74,7 +74,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Check-in Autonome', desc: 'Entrez seul et sans problème avec le clavier numérique.' },
       { icon: '💻', title: 'Espace de Travail', desc: 'Bureau, chaise et Wi-Fi haut débit dans chaque chambre.' },
-      { icon: '🛏️', title: 'Chambre Spacieuse', desc: 'Grand lit + lit simple, armoire, commode, miroir et ventilateur.' },
+      { icon: '🛏️', title: 'Chambre Spacieuse', desc: 'Choix de deux lits simples ou d\'un lit double et un lit simple — armoire, commode, miroir et ventilateur.' },
 
       { icon: '🚇', title: 'Métro à Proximité', desc: 'À côté de la station de métro — Uber pour l\'aéroport pour seulement €5.' },
       { icon: '🚲', title: 'Vélo Bienvenu', desc: 'Vous pouvez apporter votre vélo et le garder dans la chambre.' },
@@ -106,7 +106,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Check-in Autónomo', desc: 'Entra solo y sin complicaciones con el teclado numérico.' },
       { icon: '💻', title: 'Espacio de Trabajo', desc: 'Escritorio, silla y Wi-Fi de alta velocidad en cada habitación.' },
-      { icon: '🛏️', title: 'Habitación Espaciosa', desc: 'Cama doble + cama individual, armario, cómoda, espejo y ventilador.' },
+      { icon: '🛏️', title: 'Habitación Espaciosa', desc: 'Opción de dos camas individuales o una doble y una individual — armario, cómoda, espejo y ventilador.' },
 
       { icon: '🚇', title: 'Metro Cerca', desc: 'Al lado del metro — Uber al aeropuerto por solo €5.' },
       { icon: '🚲', title: 'Bicicleta Bienvenida', desc: 'Puedes traer tu bicicleta y guardarla en la habitación.' },
@@ -138,7 +138,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Selbst-Check-in', desc: 'Einchecken ganz einfach mit dem Nummernblock.' },
       { icon: '💻', title: 'Arbeitsbereich', desc: 'Schreibtisch, Stuhl und Hochgeschwindigkeits-WLAN in jedem Zimmer.' },
-      { icon: '🛏️', title: 'Geräumiges Zimmer', desc: 'Doppelbett + Einzelbett, Kleiderschrank, Kommode, Spiegel und Ventilator.' },
+      { icon: '🛏️', title: 'Geräumiges Zimmer', desc: 'Wahl zwischen zwei Einzelbetten oder einem Doppelbett und einem Einzelbett — Kleiderschrank, Kommode, Spiegel und Ventilator.' },
 
       { icon: '🚇', title: 'U-Bahn nebenan', desc: 'Direkt neben der U-Bahn-Station — Uber zum Flughafen für nur €5.' },
       { icon: '🚲', title: 'Fahrrad willkommen', desc: 'Bringen Sie Ihr Fahrrad mit und bewahren Sie es im Zimmer auf.' },
@@ -170,7 +170,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'Check-in Autonomo', desc: 'Entra da solo e senza problemi con il tastierino numerico.' },
       { icon: '💻', title: 'Spazio di Lavoro', desc: 'Scrivania, sedia e Wi-Fi ad alta velocità in ogni camera.' },
-      { icon: '🛏️', title: 'Camera Spaziosa', desc: 'Letto matrimoniale + letto singolo, armadio, cassettiera, specchio e ventilatore.' },
+      { icon: '🛏️', title: 'Camera Spaziosa', desc: 'Scelta tra due letti singoli o un letto matrimoniale e uno singolo — armadio, cassettiera, specchio e ventilatore.' },
 
       { icon: '🚇', title: 'Metro Vicino', desc: 'Accanto alla stazione della metro — Uber per l\'aeroporto solo €5.' },
       { icon: '🚲', title: 'Bici Benvenuta', desc: 'Puoi portare la tua bicicletta e tenerla in camera.' },
@@ -202,7 +202,7 @@ const content = {
     highlights: [
       { icon: '🔑', title: 'セルフチェックイン', desc: 'キーパッドで簡単にチェックイン。' },
       { icon: '💻', title: 'ワークスペース', desc: '各部屋にデスク、椅子、高速Wi-Fi完備。' },
-      { icon: '🛏️', title: '広々とした部屋', desc: 'ダブルベッド＋シングルベッド、ワードローブ、チェスト、鏡、扇風機。' },
+      { icon: '🛏️', title: '広々とした部屋', desc: 'シングルベッド2台またはダブルベッド1台＋シングルベッド1台を選択可 — ワードローブ、チェスト、鏡、扇風機。' },
 
       { icon: '🚇', title: '地下鉄すぐ', desc: '地下鉄駅のすぐ隣 — 空港までUberでわずか€5。' },
       { icon: '🚲', title: '自転車歓迎', desc: '自転車を持ち込んで部屋に保管できます。' },

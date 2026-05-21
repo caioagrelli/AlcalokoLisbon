@@ -140,33 +140,65 @@ export default function EBike() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
           >
-            {/* Logo */}
-            <div className="ebike-section__logo-wrap">
-              {EBIKE_LOGO_SRC ? (
-                EBIKE_LOGO_LINK ? (
-                  <a href={EBIKE_LOGO_LINK} target="_blank" rel="noopener noreferrer">
+            <div className="ebike-section__card">
+              {/* Topo do card: logo */}
+              <div className="ebike-section__logo-wrap">
+                {EBIKE_LOGO_SRC ? (
+                  EBIKE_LOGO_LINK ? (
+                    <a href={EBIKE_LOGO_LINK} target="_blank" rel="noopener noreferrer">
+                      <img src={EBIKE_LOGO_SRC} alt={EBIKE_LOGO_ALT} className="ebike-section__logo" />
+                    </a>
+                  ) : (
                     <img src={EBIKE_LOGO_SRC} alt={EBIKE_LOGO_ALT} className="ebike-section__logo" />
-                  </a>
+                  )
                 ) : (
-                  <img src={EBIKE_LOGO_SRC} alt={EBIKE_LOGO_ALT} className="ebike-section__logo" />
-                )
-              ) : (
-                <div className="ebike-section__logo-placeholder">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
-                    <circle cx="5.5" cy="17.5" r="3.5"/>
-                    <circle cx="18.5" cy="17.5" r="3.5"/>
-                    <path d="M15 6h-5L7 17.5"/>
-                    <path d="M15 6l3 5.5-3.5 6"/>
-                    <path d="M15 6h3"/>
-                  </svg>
-                  <span>Logo da empresa</span>
-                </div>
-              )}
-            </div>
+                  <div className="ebike-section__logo-placeholder">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                      strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="5.5" cy="17.5" r="3.5"/>
+                      <circle cx="18.5" cy="17.5" r="3.5"/>
+                      <path d="M15 6h-5L7 17.5"/>
+                      <path d="M15 6l3 5.5-3.5 6"/>
+                      <path d="M15 6h3"/>
+                    </svg>
+                    <span>Logo da empresa</span>
+                  </div>
+                )}
+              </div>
 
-            {/* Descrição */}
-            <p className="ebike-section__desc">{c.desc}</p>
+              {/* Divider */}
+              <div className="ebike-section__divider" />
+
+              {/* Nome + badge */}
+              <div className="ebike-section__brand">
+                <span className="ebike-section__brand-name">{EBIKE_LOGO_ALT}</span>
+                <span className="ebike-section__brand-badge">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                  </svg>
+                  Lisboa
+                </span>
+              </div>
+
+              {/* Descrição */}
+              <p className="ebike-section__desc">{c.desc}</p>
+
+              {/* Ícones de destaque */}
+              <div className="ebike-section__features">
+                <div className="ebike-section__feature">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+                  <span>Reserva pela app</span>
+                </div>
+                <div className="ebike-section__feature">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                  <span>QR Code</span>
+                </div>
+                <div className="ebike-section__feature">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+                  <span>Por tempo de uso</span>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
         </div>
