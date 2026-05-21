@@ -61,7 +61,13 @@ export default function Navbar() {
             <a className="navbar__logo" href="#hero"
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
               <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Alcaloko Home Lisbon" className="navbar__logo-img" />
-              <span className="navbar__logo-name">Alcaloko <span className="pt-green">Home</span> <span className="pt-red">Lisbon</span></span>
+              <span className="navbar__logo-name">
+                <span style={{ color: '#22c55e' }}>TIMI</span>
+                {' '}
+                <span style={{ color: '#ef4444' }}>Alcaloko Airbnb Lisboa</span>
+                {' '}
+                <span style={{ background: '#1a1a1a', color: '#ffffff', borderRadius: '4px', padding: '1px 6px', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
+              </span>
             </a>
 
             <ul className="navbar__links">
