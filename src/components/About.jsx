@@ -33,6 +33,11 @@ const timiDesc = {
     'La posizione è particolarmente conveniente per spostamenti rapidi ed efficienti, con accesso nelle vicinanze a due delle principali linee della metropolitana di Lisbona: la Linea Verde e la Linea Rossa. Questi collegamenti permettono di raggiungere rapidamente punti centrali come il centro città, le aree commerciali, le università e l\'aeroporto.',
     'L\'area offre inoltre un\'eccellente rete di trasporti pubblici, negozi locali, servizi essenziali e facile accesso ai diversi quartieri emblematici di Lisbona — rendendola un\'ottima base per soggiorni brevi o lunghi.',
   ],
+  ja: [
+    'アルカロコ・ホーム・リスボンは、リスボンの歴史地区と空港の間という戦略的なエリアに位置し、主要な観光スポットへも国際線へもアクセスが容易です。',
+    'この立地は快適な移動に特に便利で、リスボンの2つの主要地下鉄路線——グリーンライン（緑の線）とレッドライン（赤の線）——へのアクセスも近接しています。これらの路線を使えば、市内中心部、商業エリア、大学、空港などの主要な場所へ素早く移動できます。',
+    'さらに、この地域は充実した公共交通網、地元の商店、生活に必要なサービスを備え、リスボンの各象徴的な地区へも簡単にアクセスできます。短期・長期滞在どちらにも最適な拠点です。',
+  ],
 };
 
 /* ── Badge "12 anos" por idioma ─────────────────────────────────── */
@@ -53,10 +58,10 @@ const yearsLabel = {
 
 /* ── Metro labels ───────────────────────────────────────────────── */
 const metroLabel = {
-  pt: 'Metro', en: 'Metro', fr: 'Métro', es: 'Metro', de: 'U-Bahn', it: 'Metro',
+  pt: 'Metro', en: 'Metro', fr: 'Métro', es: 'Metro', de: 'U-Bahn', it: 'Metro', ja: '地下鉄',
 };
-const greenLine = { pt: 'Linha Verde', en: 'Green Line', fr: 'Ligne Verte',  es: 'Línea Verde',  de: 'Grüne Linie',  it: 'Linea Verde'  };
-const redLine   = { pt: 'Linha Vermelha', en: 'Red Line', fr: 'Ligne Rouge', es: 'Línea Roja',   de: 'Rote Linie',   it: 'Linea Rossa'  };
+const greenLine = { pt: 'Linha Verde', en: 'Green Line', fr: 'Ligne Verte',  es: 'Línea Verde',  de: 'Grüne Linie',  it: 'Linea Verde',  ja: 'グリーンライン' };
+const redLine   = { pt: 'Linha Vermelha', en: 'Red Line', fr: 'Ligne Rouge', es: 'Línea Roja',   de: 'Rote Linie',   it: 'Linea Rossa',  ja: 'レッドライン'   };
 
 /* ── Label de localização no stat card ─────────────────────────── */
 const locationLabel = {
