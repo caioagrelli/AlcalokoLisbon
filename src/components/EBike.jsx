@@ -177,7 +177,13 @@ export default function EBike() {
           <div className="ebike-section__info">
             {/* Nome + badge */}
             <div className="ebike-section__brand">
-              <span className="ebike-section__brand-name">{EBIKE_LOGO_ALT}</span>
+              <span className="ebike-section__brand-name">
+                <span style={{ color: '#22c55e' }}>TIMI</span>
+                {' '}
+                <span style={{ color: '#ef4444' }}>Alcaloko Airbnb Lisboa</span>
+                {' '}
+                <span style={{ background: '#1a1a1a', color: '#ffffff', borderRadius: '4px', padding: '1px 6px', fontSize: '0.85em', letterSpacing: '0.04em' }}>No.001</span>
+              </span>
               <span className="ebike-section__brand-badge">
                 <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
