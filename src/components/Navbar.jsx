@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { getWhatsAppLink } from '../config';
 
-const sections = ['about', 'photos', 'spots', 'map', 'ebike'];
+const sections = ['about', 'space', 'photos', 'spots', 'map', 'ebike'];
 
 /* SVG escalável — sem restrições de tamanho, funciona em todos os sistemas */
 function Flag({ country, size = 20 }) {

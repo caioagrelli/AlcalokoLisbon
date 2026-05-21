@@ -3,6 +3,7 @@ import { getWhatsAppLink } from '../config';
 
 const sections = [
   { key: 'about',  id: 'about'  },
+  { key: 'space',  id: 'space'  },
   { key: 'photos', id: 'photos' },
   { key: 'spots',  id: 'spots'  },
   { key: 'map',    id: 'map'    },

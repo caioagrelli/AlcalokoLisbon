@@ -2,6 +2,7 @@ const translations = {
   pt: {
     nav: {
       about: 'Sobre',
+      space: 'O Espaço',
       photos: 'Fotos',
       experience: 'Experiência',
       gastronomy: 'Gastronomia',
@@ -132,6 +133,7 @@ const translations = {
   en: {
     nav: {
       about: 'About',
+      space: 'The Space',
       photos: 'Photos',
       experience: 'Experience',
       gastronomy: 'Gastronomy',
@@ -233,6 +235,7 @@ const translations = {
   fr: {
     nav: {
       about: 'À propos',
+      space: 'L\'Espace',
       photos: 'Photos',
       experience: 'Expérience',
       gastronomy: 'Gastronomie',
@@ -334,6 +337,7 @@ const translations = {
   es: {
     nav: {
       about: 'Sobre',
+      space: 'El Espacio',
       photos: 'Fotos',
       experience: 'Experiencia',
       gastronomy: 'Gastronomía',
@@ -435,6 +439,7 @@ const translations = {
   de: {
     nav: {
       about: 'Über uns',
+      space: 'Der Raum',
       photos: 'Fotos',
       experience: 'Erlebnis',
       gastronomy: 'Gastronomie',
@@ -536,6 +541,7 @@ const translations = {
   it: {
     nav: {
       about: 'Chi siamo',
+      space: 'Lo Spazio',
       photos: 'Foto',
       experience: 'Esperienza',
       gastronomy: 'Gastronomia',
@@ -636,6 +642,7 @@ const translations = {
   ja: {
     nav: {
       about: '概要',
+      space: 'スペース',
       photos: '写真',
       experience: '体験',
       gastronomy: 'グルメ',
