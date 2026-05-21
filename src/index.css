@@ -250,7 +250,7 @@ button {
 
 .navbar__logo-name {
   font-family: var(--font-heading);
-  font-size: 1.35rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--white);
   letter-spacing: 0.02em;
