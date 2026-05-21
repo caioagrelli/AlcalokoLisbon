@@ -2287,11 +2287,11 @@ button {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  min-height: 120px;
+  min-height: 180px;
 }
 .ebike-section__logo {
   max-width: 100%;
-  max-height: 80px;
+  max-height: 160px;
   object-fit: contain;
 }
 .ebike-section__logo-placeholder {
