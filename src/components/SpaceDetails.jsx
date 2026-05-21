@@ -12,7 +12,7 @@ const content = {
       { icon: '💻', title: 'Espaço de Trabalho', desc: 'Secretária, cadeira e Wi-Fi de alta velocidade em cada quarto.' },
       { icon: '🛏️', title: 'Quarto Espaçoso', desc: 'Opção de duas camas de solteiro ou uma de casal e uma de solteiro — guarda-roupa, cómoda, espelho e ventoinha.' },
 
-      { icon: '🚇', title: 'Metro à Porta', desc: 'Ao lado da estação de metro — Uber para o aeroporto por apenas €5.' },
+      { icon: '🚇', title: 'Metro Próximo', desc: 'Paragens de metro nas redondezas — aeroporto a 10 minutos de carro.' },
       { icon: '🚲', title: 'Bicicleta Bem-vinda', desc: 'Pode trazer a sua bicicleta e guardá-la dentro do quarto.' },
     ],
     access_title: 'Acesso dos Hóspedes',
@@ -44,7 +44,7 @@ const content = {
       { icon: '💻', title: 'Workspace', desc: 'Desk, chair and high-speed Wi-Fi in every room.' },
       { icon: '🛏️', title: 'Spacious Room', desc: 'Choice of two single beds or one double and one single bed — wardrobe, chest of drawers, mirror and fan.' },
 
-      { icon: '🚇', title: 'Metro Nearby', desc: 'Right next to the metro — Uber to the airport for just €5.' },
+      { icon: '🚇', title: 'Metro Nearby', desc: 'Metro stops in the surrounding area — airport just 10 minutes by car.' },
       { icon: '🚲', title: 'Bike Welcome', desc: 'Bring your bike and store it inside your room.' },
     ],
     access_title: 'Guest Access',
@@ -76,7 +76,7 @@ const content = {
       { icon: '💻', title: 'Espace de Travail', desc: 'Bureau, chaise et Wi-Fi haut débit dans chaque chambre.' },
       { icon: '🛏️', title: 'Chambre Spacieuse', desc: 'Choix de deux lits simples ou d\'un lit double et un lit simple — armoire, commode, miroir et ventilateur.' },
 
-      { icon: '🚇', title: 'Métro à Proximité', desc: 'À côté de la station de métro — Uber pour l\'aéroport pour seulement €5.' },
+      { icon: '🚇', title: 'Métro à Proximité', desc: 'Arrêts de métro aux alentours — aéroport à 10 minutes en voiture.' },
       { icon: '🚲', title: 'Vélo Bienvenu', desc: 'Vous pouvez apporter votre vélo et le garder dans la chambre.' },
     ],
     access_title: 'Accès des Voyageurs',
@@ -108,7 +108,7 @@ const content = {
       { icon: '💻', title: 'Espacio de Trabajo', desc: 'Escritorio, silla y Wi-Fi de alta velocidad en cada habitación.' },
       { icon: '🛏️', title: 'Habitación Espaciosa', desc: 'Opción de dos camas individuales o una doble y una individual — armario, cómoda, espejo y ventilador.' },
 
-      { icon: '🚇', title: 'Metro Cerca', desc: 'Al lado del metro — Uber al aeropuerto por solo €5.' },
+      { icon: '🚇', title: 'Metro Cerca', desc: 'Paradas de metro en los alrededores — aeropuerto a 10 minutos en coche.' },
       { icon: '🚲', title: 'Bicicleta Bienvenida', desc: 'Puedes traer tu bicicleta y guardarla en la habitación.' },
     ],
     access_title: 'Acceso de los Huéspedes',
@@ -140,7 +140,7 @@ const content = {
       { icon: '💻', title: 'Arbeitsbereich', desc: 'Schreibtisch, Stuhl und Hochgeschwindigkeits-WLAN in jedem Zimmer.' },
       { icon: '🛏️', title: 'Geräumiges Zimmer', desc: 'Wahl zwischen zwei Einzelbetten oder einem Doppelbett und einem Einzelbett — Kleiderschrank, Kommode, Spiegel und Ventilator.' },
 
-      { icon: '🚇', title: 'U-Bahn nebenan', desc: 'Direkt neben der U-Bahn-Station — Uber zum Flughafen für nur €5.' },
+      { icon: '🚇', title: 'U-Bahn in der Nähe', desc: 'U-Bahn-Haltestellen in der Umgebung — Flughafen 10 Minuten mit dem Auto.' },
       { icon: '🚲', title: 'Fahrrad willkommen', desc: 'Bringen Sie Ihr Fahrrad mit und bewahren Sie es im Zimmer auf.' },
     ],
     access_title: 'Gästezugang',
@@ -172,7 +172,7 @@ const content = {
       { icon: '💻', title: 'Spazio di Lavoro', desc: 'Scrivania, sedia e Wi-Fi ad alta velocità in ogni camera.' },
       { icon: '🛏️', title: 'Camera Spaziosa', desc: 'Scelta tra due letti singoli o un letto matrimoniale e uno singolo — armadio, cassettiera, specchio e ventilatore.' },
 
-      { icon: '🚇', title: 'Metro Vicino', desc: 'Accanto alla stazione della metro — Uber per l\'aeroporto solo €5.' },
+      { icon: '🚇', title: 'Metro Vicino', desc: 'Fermate della metro nei dintorni — aeroporto a 10 minuti in auto.' },
       { icon: '🚲', title: 'Bici Benvenuta', desc: 'Puoi portare la tua bicicletta e tenerla in camera.' },
     ],
     access_title: 'Accesso degli Ospiti',
@@ -204,7 +204,7 @@ const content = {
       { icon: '💻', title: 'ワークスペース', desc: '各部屋にデスク、椅子、高速Wi-Fi完備。' },
       { icon: '🛏️', title: '広々とした部屋', desc: 'シングルベッド2台またはダブルベッド1台＋シングルベッド1台を選択可 — ワードローブ、チェスト、鏡、扇風機。' },
 
-      { icon: '🚇', title: '地下鉄すぐ', desc: '地下鉄駅のすぐ隣 — 空港までUberでわずか€5。' },
+      { icon: '🚇', title: '地下鉄近く', desc: '周辺に地下鉄の駅あり — 空港まで車で10分。' },
       { icon: '🚲', title: '自転車歓迎', desc: '自転車を持ち込んで部屋に保管できます。' },
     ],
     access_title: 'ゲストのアクセス',
