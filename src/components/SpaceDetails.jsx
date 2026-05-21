@@ -344,7 +344,6 @@ export default function SpaceDetails() {
             <div className="space-details__tour-title">{c.tour_title}</div>
             <div className="space-details__tour-desc">{c.tour_desc}</div>
           </div>
-          <div className="space-details__tour-price">{c.tour_price}</div>
         </motion.div>
 
       </div>
