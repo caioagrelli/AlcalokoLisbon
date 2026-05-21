@@ -34,13 +34,13 @@ const ROOM_CAPACITY = [
  * ════════════════════════════════════════════════════════════════
  */
 const photos = [
-  // ── Áreas Comuns (room: 0) — adicione fotos aqui quando tiver ──
-  { src: null, alt: 'Foto 1', span: 'large',  room: 0 },
-  { src: null, alt: 'Foto 2', span: 'normal', room: 0 },
-  { src: null, alt: 'Foto 3', span: 'normal', room: 0 },
-  { src: null, alt: 'Foto 4', span: 'normal', room: 0 },
-  { src: null, alt: 'Foto 5', span: 'large',  room: 0 },
-  { src: null, alt: 'Foto 6', span: 'normal', room: 0 },
+  // ── Todos — mix dos quartos ──────────────────────────
+  { src: pub('/photos/rooms/room1/r1_1.png'), alt: 'Vermelho', span: 'large',  room: 0 },
+  { src: pub('/photos/rooms/room2/r2_1.png'), alt: 'Verde',    span: 'normal', room: 0 },
+  { src: pub('/photos/rooms/room3/r3_1.png'), alt: 'Azul',     span: 'normal', room: 0 },
+  { src: pub('/photos/rooms/room1/r1_3.png'), alt: 'Vermelho', span: 'normal', room: 0 },
+  { src: pub('/photos/rooms/room2/r2_3.png'), alt: 'Verde',    span: 'large',  room: 0 },
+  { src: pub('/photos/rooms/room3/r3_3.png'), alt: 'Azul',     span: 'normal', room: 0 },
 
   // ── Quarto 1 (room: 1) ──────────────────────────────
   { src: pub('/photos/rooms/room1/r1_1.png'), alt: 'Vermelho', span: 'large',  room: 1 },
