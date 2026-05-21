@@ -180,9 +180,9 @@ export default function EBike() {
               <span className="ebike-section__brand-name">
                 <span style={{ color: '#22c55e' }}>TIMI</span>
                 {' '}
-                <span style={{ color: '#ef4444' }}>Alcaloko Airbnb Lisboa</span>
+                <span style={{ color: '#9b1c1c' }}>Alcaloko Airbnb Lisboa</span>
                 {' '}
-                <span style={{ background: '#1a1a1a', color: '#ffffff', borderRadius: '4px', padding: '1px 6px', fontSize: '0.85em', letterSpacing: '0.04em' }}>No.001</span>
+                <span style={{ color: '#94a3b8', fontSize: '0.85em', letterSpacing: '0.04em' }}>No.001</span>
               </span>
               <span className="ebike-section__brand-badge">
                 <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
