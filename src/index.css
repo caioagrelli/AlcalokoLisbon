@@ -2115,6 +2115,9 @@ button {
 }
 
 /* ── Space Details Section ──────────────────────────────────── */
+.space-details {
+  padding-bottom: 3rem;
+}
 .space-details__intro {
   font-size: 1.05rem;
   color: var(--text-light);
