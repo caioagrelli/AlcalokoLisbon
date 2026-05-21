@@ -2,6 +2,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar              from './components/Navbar';
 import Hero                from './components/Hero';
 import About               from './components/About';
+import SpaceDetails        from './components/SpaceDetails';
 import AccommodationPhotos from './components/AccommodationPhotos';
 import TouristSpots        from './components/TouristSpots';
 import MapSection          from './components/MapSection';
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <SpaceDetails />
         <AccommodationPhotos />
         <TouristSpots />
         <MapSection />

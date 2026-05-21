@@ -24,8 +24,8 @@ import { pub } from '../config';
  *    Link do site da empresa. Deixe null para sem link.
  * ════════════════════════════════════════════════════════════════
  */
-const VIDEO_URL      = null;            // ex: 'https://www.youtube.com/embed/abc123'
-const EBIKE_LOGO_SRC = null;            // ex: pub('/logo-bicicleta.png')
+const VIDEO_URL      = 'https://www.youtube.com/embed/k1XaOQuDwQ0';
+const EBIKE_LOGO_SRC = pub('/timi.jpeg');
 const EBIKE_LOGO_ALT = 'Empresa de Bicicletas Elétricas';
 const EBIKE_LOGO_LINK = null;           // ex: 'https://empresa.com'
 
