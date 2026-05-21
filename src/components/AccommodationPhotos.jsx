@@ -13,10 +13,10 @@ import { pub } from '../config';
  * ════════════════════════════════════════════════════════════════
  */
 const ROOM_CAPACITY = [
-  '4 – 6 pessoas',   // Todos
+  '2 – 3 pessoas',   // Todos
   'Até 2 pessoas',   // Quarto 1
   'Até 2 pessoas',   // Quarto 2
-  'Até 2 pessoas',   // Quarto 3
+  'Até 3 pessoas',   // Quarto 3
 ];
 
 /*
