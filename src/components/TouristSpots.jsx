@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { pub } from '../config';
 
 /*
  * ════════════════════════════════════════════════════════════════
@@ -14,15 +15,15 @@ import { useLanguage } from '../context/LanguageContext';
  * ════════════════════════════════════════════════════════════════
  */
 const spotPhotos = [
-  { src: '/photos/points/torrebelem.webp',          alt: 'Torre de Belém'            },
-  { src: '/photos/points/castelosaojorge.jpg',      alt: 'Castelo de São Jorge'      },
-  { src: '/photos/points/mosteiros.jpg',            alt: 'Mosteiro dos Jerónimos'    },
-  { src: '/photos/points/pracacomercio.jpg',        alt: 'Praça do Comércio'         },
-  { src: '/photos/points/pracadescobrimento.webp',  alt: 'Padrão dos Descobrimentos' },
-  { src: '/photos/points/oceanario.avif',           alt: 'Oceanário de Lisboa'       },
-  { src: '/photos/points/elevador.webp',            alt: 'Elevador de Santa Justa'   },
-  { src: '/photos/points/selisboa.jpeg',            alt: 'Sé de Lisboa'              },
-  { src: '/photos/points/arcotriunfal.jpg',         alt: 'Arco Triunfal Rua Augusta' },
+  { src: pub('/photos/points/torrebelem.webp'),         alt: 'Torre de Belém'            },
+  { src: pub('/photos/points/castelosaojorge.jpg'),     alt: 'Castelo de São Jorge'      },
+  { src: pub('/photos/points/mosteiros.jpg'),           alt: 'Mosteiro dos Jerónimos'    },
+  { src: pub('/photos/points/pracacomercio.jpg'),       alt: 'Praça do Comércio'         },
+  { src: pub('/photos/points/pracadescobrimento.webp'), alt: 'Padrão dos Descobrimentos' },
+  { src: pub('/photos/points/oceanario.avif'),          alt: 'Oceanário de Lisboa'       },
+  { src: pub('/photos/points/elevador.webp'),           alt: 'Elevador de Santa Justa'   },
+  { src: pub('/photos/points/selisboa.jpeg'),           alt: 'Sé de Lisboa'              },
+  { src: pub('/photos/points/arcotriunfal.jpg'),        alt: 'Arco Triunfal Rua Augusta' },
 ];
 
 /*

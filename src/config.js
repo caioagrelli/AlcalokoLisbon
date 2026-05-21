@@ -1,5 +1,8 @@
 // Configuração do site — substitua pelos seus dados reais
 export const WHATSAPP_NUMBER = '+351916900536';
+
+/* Prefixo correto para arquivos em /public — funciona em dev e GitHub Pages */
+export const pub = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
 export const PROPERTY_NAME = 'Alcaloko';
 export const PROPERTY_LOCATION = 'Lisboa, Portugal';
 

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { pub } from '../config';
 
 /*
  * ════════════════════════════════════════════════════════════════
@@ -17,7 +18,7 @@ import { useLanguage } from '../context/LanguageContext';
  *  4. Copie o src do <iframe> e substitua MAP_URL abaixo
  * ════════════════════════════════════════════════════════════════
  */
-const METRO_PHOTO_SRC = '/METRO.png';
+const METRO_PHOTO_SRC = pub('/METRO.png');
 
 /*
  * ════════════════════════════════════════════════════════════════

@@ -235,7 +235,7 @@ export default function About() {
 
             <div className="about__image-main">
               <img
-                src="/OVERVIEW.jpeg"
+                src={import.meta.env.BASE_URL + 'OVERVIEW.jpeg'}
                 alt="Apartamento Alcaloko"
                 loading="lazy"
               />
@@ -243,7 +243,7 @@ export default function About() {
 
             <div className="about__image-accent">
               <img
-                src="/PORTUGUESES.jpg"
+                src={import.meta.env.BASE_URL + 'PORTUGUESES.jpg'}
                 alt="Azulejos portugueses"
                 loading="lazy"
               />

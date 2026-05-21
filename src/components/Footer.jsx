@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="footer__brand-logo">
-              <img src="/logo.png" alt="Alcaloko Home Lisbon" className="footer__brand-img" />
+              <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Alcaloko Home Lisbon" className="footer__brand-img" />
               <span className="footer__brand-name">
                 Alcaloko <span className="footer__brand-home">Home</span> <span className="footer__brand-lisbon">Lisbon</span>
               </span>

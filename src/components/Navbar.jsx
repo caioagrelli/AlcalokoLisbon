@@ -60,7 +60,7 @@ export default function Navbar() {
 
             <a className="navbar__logo" href="#hero"
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-              <img src="/logo.png" alt="Alcaloko Home Lisbon" className="navbar__logo-img" />
+              <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Alcaloko Home Lisbon" className="navbar__logo-img" />
               <span className="navbar__logo-name">Alcaloko <span className="pt-green">Home</span> <span className="pt-red">Lisbon</span></span>
             </a>
 
