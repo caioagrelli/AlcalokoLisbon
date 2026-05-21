@@ -68,7 +68,9 @@ export default function Navbar() {
               {sections.map((s) => (
                 <li key={s}>
                   <a href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollTo(s); }}>
-                    {t.nav[s] || s}
+                    {s === 'ebike'
+                      ? <span style={{ color: '#22c55e', fontWeight: 700 }}>TIMI</span>
+                      : t.nav[s] || s}
                   </a>
                 </li>
               ))}
@@ -126,7 +128,9 @@ export default function Navbar() {
       <div className={`navbar__mobile${menuOpen ? ' open' : ''}`}>
         {sections.map((s) => (
           <a key={s} href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollTo(s); }}>
-            {t.nav[s]}
+            {s === 'ebike'
+              ? <span style={{ color: '#22c55e', fontWeight: 700 }}>TIMI</span>
+              : t.nav[s]}
           </a>
         ))}
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
