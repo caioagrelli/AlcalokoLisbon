@@ -6,6 +6,7 @@ const sections = [
   { key: 'photos', id: 'photos' },
   { key: 'spots',  id: 'spots'  },
   { key: 'map',    id: 'map'    },
+  { key: 'ebike',  id: 'ebike'  },
 ];
 
 export default function Footer() {

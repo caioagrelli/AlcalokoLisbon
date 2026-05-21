@@ -2109,3 +2109,77 @@ button {
   .map-section__photo-banner { height: 260px; }
   .spot-card__photo { height: 140px; }
 }
+
+/* ── E-Bike Section ─────────────────────────────────────────── */
+.ebike-section__layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2.5rem;
+  align-items: start;
+}
+.ebike-section__video-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.ebike-section__video-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+.ebike-section__video-placeholder code {
+  font-size: 0.8rem;
+  background: var(--border);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--gold);
+}
+.ebike-section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.ebike-section__logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  min-height: 120px;
+}
+.ebike-section__logo {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+.ebike-section__logo-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.ebike-section__desc {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.75;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .ebike-section__layout {
+    grid-template-columns: 1fr;
+  }
+}

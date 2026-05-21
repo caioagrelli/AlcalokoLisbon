@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { pub } from '../config';
 
 /*
  * ════════════════════════════════════════════════════════════════
@@ -33,7 +34,7 @@ const ROOM_CAPACITY = [
  * ════════════════════════════════════════════════════════════════
  */
 const photos = [
-  // ── Áreas Comuns (room: 0) — edite os alt para os nomes que quiser ──
+  // ── Áreas Comuns (room: 0) — adicione fotos aqui quando tiver ──
   { src: null, alt: 'Foto 1', span: 'large',  room: 0 },
   { src: null, alt: 'Foto 2', span: 'normal', room: 0 },
   { src: null, alt: 'Foto 3', span: 'normal', room: 0 },
@@ -42,22 +43,33 @@ const photos = [
   { src: null, alt: 'Foto 6', span: 'normal', room: 0 },
 
   // ── Quarto 1 (room: 1) ──────────────────────────────
-  { src: null, alt: 'Quarto 1 — Vista geral',   span: 'large',  room: 1 },
-  { src: null, alt: 'Quarto 1 — Cama',          span: 'normal', room: 1 },
-  { src: null, alt: 'Quarto 1 — Detalhes',      span: 'normal', room: 1 },
-  { src: null, alt: 'Quarto 1 — Casa de banho', span: 'normal', room: 1 },
+  { src: pub('/photos/rooms/room1/r1_1.png'), alt: 'Quarto 1', span: 'large',  room: 1 },
+  { src: pub('/photos/rooms/room1/r1_2.png'), alt: 'Quarto 1', span: 'normal', room: 1 },
+  { src: pub('/photos/rooms/room1/r1_3.png'), alt: 'Quarto 1', span: 'normal', room: 1 },
+  { src: pub('/photos/rooms/room1/r1_4.png'), alt: 'Quarto 1', span: 'normal', room: 1 },
+  { src: pub('/photos/rooms/room1/r1_5.png'), alt: 'Quarto 1', span: 'large',  room: 1 },
+  { src: pub('/photos/rooms/room1/r1_6.png'), alt: 'Quarto 1', span: 'normal', room: 1 },
+  { src: pub('/photos/rooms/room1/r1_7.png'), alt: 'Quarto 1', span: 'normal', room: 1 },
 
   // ── Quarto 2 (room: 2) ──────────────────────────────
-  { src: null, alt: 'Quarto 2 — Vista geral',   span: 'large',  room: 2 },
-  { src: null, alt: 'Quarto 2 — Cama',          span: 'normal', room: 2 },
-  { src: null, alt: 'Quarto 2 — Detalhes',      span: 'normal', room: 2 },
-  { src: null, alt: 'Quarto 2 — Casa de banho', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_1.png'), alt: 'Quarto 2', span: 'large',  room: 2 },
+  { src: pub('/photos/rooms/room2/r2_2.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_3.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_4.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_5.png'), alt: 'Quarto 2', span: 'large',  room: 2 },
+  { src: pub('/photos/rooms/room2/r2_6.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_7.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
+  { src: pub('/photos/rooms/room2/r2_8.png'), alt: 'Quarto 2', span: 'normal', room: 2 },
 
   // ── Quarto 3 (room: 3) ──────────────────────────────
-  { src: null, alt: 'Quarto 3 — Vista geral',   span: 'large',  room: 3 },
-  { src: null, alt: 'Quarto 3 — Cama',          span: 'normal', room: 3 },
-  { src: null, alt: 'Quarto 3 — Detalhes',      span: 'normal', room: 3 },
-  { src: null, alt: 'Quarto 3 — Casa de banho', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_1.png'), alt: 'Quarto 3', span: 'large',  room: 3 },
+  { src: pub('/photos/rooms/room3/r3_2.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_3.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_4.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_5.png'), alt: 'Quarto 3', span: 'large',  room: 3 },
+  { src: pub('/photos/rooms/room3/r3_6.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_7.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
+  { src: pub('/photos/rooms/room3/r3_8.png'), alt: 'Quarto 3', span: 'normal', room: 3 },
 ];
 
 const i18n = {

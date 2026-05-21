@@ -5,6 +5,7 @@ import About               from './components/About';
 import AccommodationPhotos from './components/AccommodationPhotos';
 import TouristSpots        from './components/TouristSpots';
 import MapSection          from './components/MapSection';
+import EBike               from './components/EBike';
 import CTA                 from './components/CTA';
 import Footer              from './components/Footer';
 import WhatsAppButton      from './components/WhatsAppButton';
@@ -19,6 +20,7 @@ export default function App() {
         <AccommodationPhotos />
         <TouristSpots />
         <MapSection />
+        <EBike />
         <CTA />
       </main>
       <Footer />
