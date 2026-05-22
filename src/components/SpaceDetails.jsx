@@ -13,6 +13,7 @@ const content = {
       { icon: '🛏️', title: 'Quarto Espaçoso', desc: 'Opção de duas camas de solteiro ou uma de casal e uma de solteiro — guarda-roupa, cómoda, espelho e ventoinha.' },
 
       { icon: '🚇', title: 'Metro Próximo', desc: 'Paragens de metro nas redondezas — aeroporto a 10 minutos de carro.' },
+      { icon: '🌊', title: 'Rio Tejo', desc: 'O rio Tejo fica a apenas 20 minutos a pé.' },
       { icon: '🚲', title: 'Bicicleta Bem-vinda', desc: 'Pode trazer a sua bicicleta e guardá-la dentro do quarto.' },
     ],
     access_title: 'Acesso dos Hóspedes',
@@ -45,6 +46,7 @@ const content = {
       { icon: '🛏️', title: 'Spacious Room', desc: 'Choice of two single beds or one double and one single bed — wardrobe, chest of drawers, mirror and fan.' },
 
       { icon: '🚇', title: 'Metro Nearby', desc: 'Metro stops in the surrounding area — airport just 10 minutes by car.' },
+      { icon: '🌊', title: 'Tagus River', desc: 'The Tagus River is just a 20-minute walk away.' },
       { icon: '🚲', title: 'Bike Welcome', desc: 'Bring your bike and store it inside your room.' },
     ],
     access_title: 'Guest Access',
@@ -77,6 +79,7 @@ const content = {
       { icon: '🛏️', title: 'Chambre Spacieuse', desc: 'Choix de deux lits simples ou d\'un lit double et un lit simple — armoire, commode, miroir et ventilateur.' },
 
       { icon: '🚇', title: 'Métro à Proximité', desc: 'Arrêts de métro aux alentours — aéroport à 10 minutes en voiture.' },
+      { icon: '🌊', title: 'Fleuve Tage', desc: 'Le Tage est à seulement 20 minutes à pied.' },
       { icon: '🚲', title: 'Vélo Bienvenu', desc: 'Vous pouvez apporter votre vélo et le garder dans la chambre.' },
     ],
     access_title: 'Accès des Voyageurs',
@@ -109,6 +112,7 @@ const content = {
       { icon: '🛏️', title: 'Habitación Espaciosa', desc: 'Opción de dos camas individuales o una doble y una individual — armario, cómoda, espejo y ventilador.' },
 
       { icon: '🚇', title: 'Metro Cerca', desc: 'Paradas de metro en los alrededores — aeropuerto a 10 minutos en coche.' },
+      { icon: '🌊', title: 'Río Tajo', desc: 'El río Tajo está a solo 20 minutos a pie.' },
       { icon: '🚲', title: 'Bicicleta Bienvenida', desc: 'Puedes traer tu bicicleta y guardarla en la habitación.' },
     ],
     access_title: 'Acceso de los Huéspedes',
@@ -141,6 +145,7 @@ const content = {
       { icon: '🛏️', title: 'Geräumiges Zimmer', desc: 'Wahl zwischen zwei Einzelbetten oder einem Doppelbett und einem Einzelbett — Kleiderschrank, Kommode, Spiegel und Ventilator.' },
 
       { icon: '🚇', title: 'U-Bahn in der Nähe', desc: 'U-Bahn-Haltestellen in der Umgebung — Flughafen 10 Minuten mit dem Auto.' },
+      { icon: '🌊', title: 'Fluss Tejo', desc: 'Der Tejo ist nur 20 Gehminuten entfernt.' },
       { icon: '🚲', title: 'Fahrrad willkommen', desc: 'Bringen Sie Ihr Fahrrad mit und bewahren Sie es im Zimmer auf.' },
     ],
     access_title: 'Gästezugang',
@@ -173,6 +178,7 @@ const content = {
       { icon: '🛏️', title: 'Camera Spaziosa', desc: 'Scelta tra due letti singoli o un letto matrimoniale e uno singolo — armadio, cassettiera, specchio e ventilatore.' },
 
       { icon: '🚇', title: 'Metro Vicino', desc: 'Fermate della metro nei dintorni — aeroporto a 10 minuti in auto.' },
+      { icon: '🌊', title: 'Fiume Tago', desc: 'Il fiume Tago è a soli 20 minuti a piedi.' },
       { icon: '🚲', title: 'Bici Benvenuta', desc: 'Puoi portare la tua bicicletta e tenerla in camera.' },
     ],
     access_title: 'Accesso degli Ospiti',
@@ -205,6 +211,7 @@ const content = {
       { icon: '🛏️', title: '広々とした部屋', desc: 'シングルベッド2台またはダブルベッド1台＋シングルベッド1台を選択可 — ワードローブ、チェスト、鏡、扇風機。' },
 
       { icon: '🚇', title: '地下鉄近く', desc: '周辺に地下鉄の駅あり — 空港まで車で10分。' },
+      { icon: '🌊', title: 'テージョ川', desc: 'テージョ川まで徒歩20分。' },
       { icon: '🚲', title: '自転車歓迎', desc: '自転車を持ち込んで部屋に保管できます。' },
     ],
     access_title: 'ゲストのアクセス',

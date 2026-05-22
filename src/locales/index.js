@@ -127,7 +127,7 @@ const translations = {
       contact: 'Contacto',
       lisbon: 'Lisboa, Portugal',
     },
-    whatsapp_msg: 'Olá! Tenho interesse no apartamento Alcaloko em Lisboa. Pode dar-me mais informações?',
+    whatsapp_msg: 'Olá! Tenho interesse em reservar um quarto no "TIMI Alcaloko Lisboa". Pode enviar informações sobre disponibilidade, fotos do local e valores da estadia?',
   },
 
   en: {
@@ -229,7 +229,7 @@ const translations = {
       contact: 'Contact',
       lisbon: 'Lisbon, Portugal',
     },
-    whatsapp_msg: 'Hello! I am interested in the Alcaloko apartment in Lisbon. Can you give me more information?',
+    whatsapp_msg: 'Hello! I\'m interested in booking a room at "TIMI Alcaloko Lisboa". Could you send information about availability, photos of the place and accommodation rates?',
   },
 
   fr: {
@@ -331,7 +331,7 @@ const translations = {
       contact: 'Contact',
       lisbon: 'Lisbonne, Portugal',
     },
-    whatsapp_msg: 'Bonjour ! Je suis intéressé(e) par l\'appartement Alcaloko à Lisbonne. Pouvez-vous me donner plus d\'informations ?',
+    whatsapp_msg: 'Bonjour ! Je suis intéressé(e) à réserver une chambre au "TIMI Alcaloko Lisboa". Pouvez-vous m\'envoyer des informations sur la disponibilité, des photos du logement et les tarifs ?',
   },
 
   es: {
@@ -433,7 +433,7 @@ const translations = {
       contact: 'Contacto',
       lisbon: 'Lisboa, Portugal',
     },
-    whatsapp_msg: '¡Hola! Estoy interesado/a en el apartamento Alcaloko en Lisboa. ¿Puede darme más información?',
+    whatsapp_msg: '¡Hola! Estoy interesado/a en reservar una habitación en "TIMI Alcaloko Lisboa". ¿Puede enviarme información sobre disponibilidad, fotos del lugar y tarifas de alojamiento?',
   },
 
   de: {
@@ -535,7 +535,7 @@ const translations = {
       contact: 'Kontakt',
       lisbon: 'Lissabon, Portugal',
     },
-    whatsapp_msg: 'Hallo! Ich interessiere mich für die Alcaloko-Wohnung in Lissabon. Können Sie mir mehr Informationen geben?',
+    whatsapp_msg: 'Hallo! Ich möchte ein Zimmer im "TIMI Alcaloko Lisboa" buchen. Können Sie mir Informationen zur Verfügbarkeit, Fotos der Unterkunft und die Übernachtungspreise schicken?',
   },
 
   it: {
@@ -637,7 +637,7 @@ const translations = {
       contact: 'Contatto',
       lisbon: 'Lisbona, Portogallo',
     },
-    whatsapp_msg: "Ciao! Sono interessato/a all'appartamento Alcaloko a Lisbona. Può darmi più informazioni?",
+    whatsapp_msg: 'Ciao! Sono interessato/a a prenotare una stanza al "TIMI Alcaloko Lisboa". Può inviarmi informazioni sulla disponibilità, foto della struttura e le tariffe di soggiorno?',
   },
   ja: {
     nav: {
@@ -736,7 +736,7 @@ const translations = {
       contact: 'お問い合わせ',
       lisbon: 'リスボン、ポルトガル',
     },
-    whatsapp_msg: 'こんにちは！リスボンのAlcalakoアパートメントに興味があります。詳細を教えていただけますか？',
+    whatsapp_msg: 'こんにちは！「TIMI Alcaloko Lisboa」のお部屋を予約したいと思っています。空室状況、施設の写真、宿泊料金についての情報をお送りいただけますか？',
   },
 };
 

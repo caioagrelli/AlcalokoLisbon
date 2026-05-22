@@ -109,7 +109,21 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {year} Alcaloko Home Lisbon — {f.rights}
+            © {year}{' '}
+            <span style={{ color: '#22c55e' }}>TIMI</span>
+            {' '}
+            <span style={{ color: '#9b1c1c' }}>Alcaloko Airbnb Lisboa</span>
+            {' '}
+            <span style={{ color: '#94a3b8', fontSize: '0.85em' }}>No.001</span>
+            {' '}· Desde 2015 · Desenvolvido por{' '}
+            <a
+              href="https://www.cin.ufpe.br/~caarr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#94a3b8', textDecoration: 'underline' }}
+            >
+              Caio Agrelli
+            </a>
           </p>
           <div className="footer__social">
             <a href={getWhatsAppLink(t.whatsapp_msg)} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
