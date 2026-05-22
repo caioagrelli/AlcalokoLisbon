@@ -64,9 +64,9 @@ export default function Navbar() {
               <span className="navbar__logo-name">
                 <span style={{ color: '#4ade80' }}>TIMI</span>
                 {' '}
-                <span style={{ color: '#f87171' }}>Alcaloko Airbnb Lisboa</span>
+                <span style={{ color: '#ffffff' }}>Alcaloko Airbnb Lisboa</span>
                 {' '}
-                <span style={{ color: '#cbd5e1', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
+                <span style={{ color: '#ffffff', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
               </span>
             </a>
 

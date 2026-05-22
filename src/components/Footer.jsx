@@ -29,11 +29,11 @@ export default function Footer() {
             <div className="footer__brand-logo">
               <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Alcaloko Home Lisbon" className="footer__brand-img" />
               <span className="footer__brand-name">
-                <span style={{ color: '#22c55e' }}>TIMI</span>
+                <span style={{ color: '#4ade80' }}>TIMI</span>
                 {' '}
-                <span style={{ color: '#9b1c1c' }}>Alcaloko Airbnb Lisboa</span>
+                <span style={{ color: '#ffffff' }}>Alcaloko Airbnb Lisboa</span>
                 {' '}
-                <span style={{ color: '#94a3b8', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
+                <span style={{ color: '#ffffff', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
               </span>
             </div>
             <p className="footer__tagline">{f.tagline}</p>
@@ -110,9 +110,9 @@ export default function Footer() {
         <div className="footer__bottom">
           <p className="footer__copyright">
             © {year}{' '}
-            <span style={{ color: '#22c55e' }}>TIMI</span>
+            <span style={{ color: '#4ade80' }}>TIMI</span>
             {' '}
-            <span style={{ color: '#9b1c1c' }}>Alcaloko Airbnb Lisboa</span>
+            <span style={{ color: '#ffffff' }}>Alcaloko Airbnb Lisboa</span>
             {' '}
             <span style={{ color: '#94a3b8', fontSize: '0.85em' }}>No.001</span>
             {' '}· Desde 2015 · Desenvolvido por{' '}
