@@ -12,7 +12,7 @@ const content = {
       { icon: '💻', title: 'Espaço de Trabalho', desc: 'Secretária, cadeira e Wi-Fi de alta velocidade em cada quarto.' },
       { icon: '🛏️', title: 'Quarto Espaçoso', desc: 'Opção de duas camas de solteiro ou uma de casal e uma de solteiro — guarda-roupa, cómoda, espelho e ventoinha.' },
 
-      { icon: '🚇', title: 'Metro Próximo', desc: 'Paragens de metro nas redondezas — aeroporto a 10 minutos de carro.' },
+      { icon: '🚇', title: 'Metro Alameda', desc: 'Estação Alameda (Linha Amarela) a apenas 3 minutos a pé. Acesso direto ao centro sem carro.' },
       { icon: '🌊', title: 'Rio Tejo', desc: 'O rio Tejo fica a apenas 20 minutos a pé.' },
       { icon: '🚲', title: 'Bicicleta Bem-vinda', desc: 'Pode trazer a sua bicicleta e guardá-la dentro do quarto.' },
     ],
@@ -45,7 +45,7 @@ const content = {
       { icon: '💻', title: 'Workspace', desc: 'Desk, chair and high-speed Wi-Fi in every room.' },
       { icon: '🛏️', title: 'Spacious Room', desc: 'Choice of two single beds or one double and one single bed — wardrobe, chest of drawers, mirror and fan.' },
 
-      { icon: '🚇', title: 'Metro Nearby', desc: 'Metro stops in the surrounding area — airport just 10 minutes by car.' },
+      { icon: '🚇', title: 'Alameda Metro', desc: 'Alameda station (Yellow Line) just 3 minutes\' walk. Direct access to the city centre, no car needed.' },
       { icon: '🌊', title: 'Tagus River', desc: 'The Tagus River is just a 20-minute walk away.' },
       { icon: '🚲', title: 'Bike Welcome', desc: 'Bring your bike and store it inside your room.' },
     ],
@@ -78,7 +78,7 @@ const content = {
       { icon: '💻', title: 'Espace de Travail', desc: 'Bureau, chaise et Wi-Fi haut débit dans chaque chambre.' },
       { icon: '🛏️', title: 'Chambre Spacieuse', desc: 'Choix de deux lits simples ou d\'un lit double et un lit simple — armoire, commode, miroir et ventilateur.' },
 
-      { icon: '🚇', title: 'Métro à Proximité', desc: 'Arrêts de métro aux alentours — aéroport à 10 minutes en voiture.' },
+      { icon: '🚇', title: 'Métro Alameda', desc: 'Station Alameda (Ligne Jaune) à 3 minutes à pied. Accès direct au centre-ville sans voiture.' },
       { icon: '🌊', title: 'Fleuve Tage', desc: 'Le Tage est à seulement 20 minutes à pied.' },
       { icon: '🚲', title: 'Vélo Bienvenu', desc: 'Vous pouvez apporter votre vélo et le garder dans la chambre.' },
     ],
@@ -111,7 +111,7 @@ const content = {
       { icon: '💻', title: 'Espacio de Trabajo', desc: 'Escritorio, silla y Wi-Fi de alta velocidad en cada habitación.' },
       { icon: '🛏️', title: 'Habitación Espaciosa', desc: 'Opción de dos camas individuales o una doble y una individual — armario, cómoda, espejo y ventilador.' },
 
-      { icon: '🚇', title: 'Metro Cerca', desc: 'Paradas de metro en los alrededores — aeropuerto a 10 minutos en coche.' },
+      { icon: '🚇', title: 'Metro Alameda', desc: 'Estación Alameda (Línea Amarilla) a solo 3 minutos a pie. Acceso directo al centro sin coche.' },
       { icon: '🌊', title: 'Río Tajo', desc: 'El río Tajo está a solo 20 minutos a pie.' },
       { icon: '🚲', title: 'Bicicleta Bienvenida', desc: 'Puedes traer tu bicicleta y guardarla en la habitación.' },
     ],
@@ -144,7 +144,7 @@ const content = {
       { icon: '💻', title: 'Arbeitsbereich', desc: 'Schreibtisch, Stuhl und Hochgeschwindigkeits-WLAN in jedem Zimmer.' },
       { icon: '🛏️', title: 'Geräumiges Zimmer', desc: 'Wahl zwischen zwei Einzelbetten oder einem Doppelbett und einem Einzelbett — Kleiderschrank, Kommode, Spiegel und Ventilator.' },
 
-      { icon: '🚇', title: 'U-Bahn in der Nähe', desc: 'U-Bahn-Haltestellen in der Umgebung — Flughafen 10 Minuten mit dem Auto.' },
+      { icon: '🚇', title: 'U-Bahn Alameda', desc: 'Station Alameda (Gelbe Linie) nur 3 Gehminuten entfernt. Direkter Zugang zum Zentrum ohne Auto.' },
       { icon: '🌊', title: 'Fluss Tejo', desc: 'Der Tejo ist nur 20 Gehminuten entfernt.' },
       { icon: '🚲', title: 'Fahrrad willkommen', desc: 'Bringen Sie Ihr Fahrrad mit und bewahren Sie es im Zimmer auf.' },
     ],
@@ -177,7 +177,7 @@ const content = {
       { icon: '💻', title: 'Spazio di Lavoro', desc: 'Scrivania, sedia e Wi-Fi ad alta velocità in ogni camera.' },
       { icon: '🛏️', title: 'Camera Spaziosa', desc: 'Scelta tra due letti singoli o un letto matrimoniale e uno singolo — armadio, cassettiera, specchio e ventilatore.' },
 
-      { icon: '🚇', title: 'Metro Vicino', desc: 'Fermate della metro nei dintorni — aeroporto a 10 minuti in auto.' },
+      { icon: '🚇', title: 'Metro Alameda', desc: 'Stazione Alameda (Linea Gialla) a soli 3 minuti a piedi. Accesso diretto al centro senza auto.' },
       { icon: '🌊', title: 'Fiume Tago', desc: 'Il fiume Tago è a soli 20 minuti a piedi.' },
       { icon: '🚲', title: 'Bici Benvenuta', desc: 'Puoi portare la tua bicicletta e tenerla in camera.' },
     ],
@@ -210,7 +210,7 @@ const content = {
       { icon: '💻', title: 'ワークスペース', desc: '各部屋にデスク、椅子、高速Wi-Fi完備。' },
       { icon: '🛏️', title: '広々とした部屋', desc: 'シングルベッド2台またはダブルベッド1台＋シングルベッド1台を選択可 — ワードローブ、チェスト、鏡、扇風機。' },
 
-      { icon: '🚇', title: '地下鉄近く', desc: '周辺に地下鉄の駅あり — 空港まで車で10分。' },
+      { icon: '🚇', title: 'オディヴェラス駅', desc: 'オディヴェラス駅（イエローライン）は徒歩3分。車不要で市内中心部へ直通。' },
       { icon: '🌊', title: 'テージョ川', desc: 'テージョ川まで徒歩20分。' },
       { icon: '🚲', title: '自転車歓迎', desc: '自転車を持ち込んで部屋に保管できます。' },
     ],

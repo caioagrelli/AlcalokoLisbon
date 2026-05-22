@@ -242,7 +242,7 @@ button {
 }
 
 .navbar__logo-img {
-  height: 38px;
+  height: 52px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -250,10 +250,11 @@ button {
 
 .navbar__logo-name {
   font-family: var(--font-heading);
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: var(--white);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .navbar__logo-name .pt-green { color: #006A44; }
@@ -1145,7 +1146,7 @@ button {
 }
 
 .footer__brand-img {
-  height: 48px;
+  height: 80px;
   width: auto;
   object-fit: contain;
   display: block;
@@ -1303,7 +1304,7 @@ button {
   .navbar__links, .navbar__book-btn { display: none; }
   .navbar__hamburger { display: flex; }
   .navbar__logo-name { font-size: 1rem; }
-  .navbar__logo-img { height: 30px; }
+  .navbar__logo-img { height: 42px; }
 
   /* ── Hero ── */
   .hero__content { padding-top: 7rem; }
@@ -1366,7 +1367,7 @@ button {
   .footer__grid { grid-template-columns: 1fr; gap: 1.75rem; }
   .footer__bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
   .footer__brand-name { font-size: 1.25rem; }
-  .footer__brand-img { height: 38px; }
+  .footer__brand-img { height: 64px; }
   .footer__lang-btns { flex-wrap: wrap; gap: 0.4rem; }
 
   /* ── CTA ── */
@@ -1381,7 +1382,7 @@ button {
   }
 
   /* ── Navbar ── */
-  .navbar__logo-name { font-size: 0.88rem; }
+  .navbar__logo-name { font-size: 0.95rem; }
 
   /* ── Hero ── */
   .hero__title { font-size: clamp(1.7rem, 9vw, 2.2rem); }

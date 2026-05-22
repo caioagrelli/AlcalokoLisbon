@@ -4,39 +4,39 @@ import { useLanguage } from '../context/LanguageContext';
 /* ── Descrição completa TIMI por idioma ─────────────────────────── */
 const timiDesc = {
   pt: [
-    'O Alcaloko Home Lisbon está situado numa zona estratégica de Lisboa, entre o centro histórico e o aeroporto, permitindo fácil acesso tanto às principais atrações turísticas como às ligações internacionais da cidade.',
-    'A localização é particularmente conveniente para deslocações rápidas e eficientes, com acesso próximo a duas das principais linhas do metro de Lisboa: a Linha Verde e a Linha Vermelha. Estas ligações permitem chegar rapidamente a pontos centrais como o centro da cidade, zonas comerciais, universidades e o aeroporto.',
-    'Além disso, a área oferece uma boa rede de transportes públicos, comércio local, serviços essenciais e acesso fácil a diferentes bairros emblemáticos de Lisboa — tornando-a uma excelente base para estadias curtas ou longas.',
+    'O Alcaloko Home Lisbon está situado no coração de Lisboa, numa zona residencial tranquila com tudo a poucos passos.',
+    'Estação de Metro Alameda (Linha Amarela) — a apenas 3 minutos a pé do apartamento. Acesso direto ao centro da cidade sem necessidade de carro.',
+    'A área dispõe ainda de comércio local, restaurantes, serviços essenciais e acesso fácil aos bairros mais emblemáticos de Lisboa.',
   ],
   en: [
-    'Alcaloko Home Lisbon is situated in a strategic area of Lisbon, between the historic centre and the airport, allowing easy access to both the city\'s main tourist attractions and international connections.',
-    'The location is particularly convenient for quick and efficient travel, with nearby access to two of Lisbon\'s main metro lines: the Green Line and the Red Line. These connections allow you to quickly reach central points such as the city centre, commercial areas, universities and the airport.',
-    'The area also offers an excellent public transport network, local shops, essential services and easy access to Lisbon\'s iconic neighbourhoods — making it an excellent base for short or long stays.',
+    'Alcaloko Home Lisbon is located in the heart of Lisbon, in a quiet residential area with everything just steps away.',
+    'Alameda Metro Station (Yellow Line) — just 3 minutes\' walk from the apartment. Direct access to the city centre with no need for a car.',
+    'The area also has local shops, restaurants, essential services and easy access to Lisbon\'s most iconic neighbourhoods.',
   ],
   fr: [
-    'Le Alcaloko Home Lisbon est situé dans une zone stratégique de Lisbonne, entre le centre historique et l\'aéroport, offrant un accès facile aux principales attractions touristiques et aux connexions internationales.',
-    'L\'emplacement est particulièrement pratique pour des déplacements rapides, avec un accès proche aux deux principales lignes de métro de Lisbonne : la Ligne Verte et la Ligne Rouge. Ces liaisons permettent d\'atteindre rapidement des points centraux tels que le centre-ville, les zones commerciales, les universités et l\'aéroport.',
-    'La zone offre également un excellent réseau de transports en commun, des commerces locaux, des services essentiels et un accès facile aux différents quartiers emblématiques de Lisbonne — en faisant une excellente base pour des séjours courts ou longs.',
+    'L\'Alcaloko Home Lisbon est situé au cœur de Lisbonne, dans un quartier résidentiel calme avec tout à portée de main.',
+    'Station de Métro Alameda (Ligne Jaune) — à seulement 3 minutes à pied de l\'appartement. Accès direct au centre-ville sans besoin de voiture.',
+    'Le quartier dispose aussi de commerces locaux, restaurants, services essentiels et d\'un accès facile aux quartiers emblématiques de Lisbonne.',
   ],
   es: [
-    'El Alcaloko Home Lisbon está situado en una zona estratégica de Lisboa, entre el centro histórico y el aeropuerto, permitiendo fácil acceso tanto a las principales atracciones turísticas como a las conexiones internacionales.',
-    'La ubicación es especialmente conveniente para desplazamientos rápidos, con acceso próximo a las dos principales líneas de metro de Lisboa: la Línea Verde y la Línea Roja. Estas conexiones permiten llegar rápidamente a puntos centrales como el centro de la ciudad, zonas comerciales, universidades y el aeropuerto.',
-    'La zona también ofrece una excelente red de transporte público, comercios locales, servicios esenciales y fácil acceso a los diferentes barrios emblemáticos de Lisboa — convirtiéndola en una excelente base para estancias cortas o largas.',
+    'El Alcaloko Home Lisbon está ubicado en el corazón de Lisboa, en una zona residencial tranquila con todo a pocos pasos.',
+    'Estación de Metro Alameda (Línea Amarilla) — a solo 3 minutos a pie del apartamento. Acceso directo al centro de la ciudad sin necesidad de coche.',
+    'La zona cuenta también con comercios locales, restaurantes, servicios esenciales y fácil acceso a los barrios más emblemáticos de Lisboa.',
   ],
   de: [
-    'Alcaloko Home Lisbon befindet sich in einer strategischen Lage in Lissabon, zwischen dem historischen Zentrum und dem Flughafen, mit einfachem Zugang zu den wichtigsten Touristenattraktionen und internationalen Verbindungen.',
-    'Der Standort ist besonders günstig für schnelle und effiziente Reisen, mit Zugang zu zwei Hauptlinien der Lissaboner U-Bahn: der Grünen Linie und der Roten Linie. Diese Verbindungen ermöglichen schnelle Fahrten in das Stadtzentrum, Einkaufszonen, Universitäten und den Flughafen.',
-    'Das Gebiet bietet außerdem ein ausgezeichnetes öffentliches Verkehrsnetz, lokale Geschäfte, wesentliche Dienstleistungen und einfachen Zugang zu den verschiedenen emblematischen Stadtvierteln Lissabons — eine ausgezeichnete Basis für kurze oder lange Aufenthalte.',
+    'Das Alcaloko Home Lisbon liegt im Herzen von Lissabon, in einem ruhigen Wohngebiet mit allem in unmittelbarer Nähe.',
+    'U-Bahn-Station Alameda (Gelbe Linie) — nur 3 Gehminuten von der Wohnung entfernt. Direkter Zugang zum Stadtzentrum ohne Auto.',
+    'Das Viertel bietet zudem lokale Geschäfte, Restaurants, wichtige Dienstleistungen und einfachen Zugang zu Lissabons emblematischen Stadtvierteln.',
   ],
   it: [
-    'Alcaloko Home Lisbon è situato in una zona strategica di Lisbona, tra il centro storico e l\'aeroporto, consentendo un facile accesso alle principali attrazioni turistiche e ai collegamenti internazionali della città.',
-    'La posizione è particolarmente conveniente per spostamenti rapidi ed efficienti, con accesso nelle vicinanze a due delle principali linee della metropolitana di Lisbona: la Linea Verde e la Linea Rossa. Questi collegamenti permettono di raggiungere rapidamente punti centrali come il centro città, le aree commerciali, le università e l\'aeroporto.',
-    'L\'area offre inoltre un\'eccellente rete di trasporti pubblici, negozi locali, servizi essenziali e facile accesso ai diversi quartieri emblematici di Lisbona — rendendola un\'ottima base per soggiorni brevi o lunghi.',
+    'L\'Alcaloko Home Lisbon si trova nel cuore di Lisbona, in una zona residenziale tranquilla con tutto a pochi passi.',
+    'Stazione Metro Alameda (Linea Gialla) — a soli 3 minuti a piedi dall\'appartamento. Accesso diretto al centro città senza bisogno di auto.',
+    'La zona dispone anche di negozi locali, ristoranti, servizi essenziali e facile accesso ai quartieri più iconici di Lisbona.',
   ],
   ja: [
-    'アルカロコ・ホーム・リスボンは、リスボンの歴史地区と空港の間という戦略的なエリアに位置し、主要な観光スポットへも国際線へもアクセスが容易です。',
-    'この立地は快適な移動に特に便利で、リスボンの2つの主要地下鉄路線——グリーンライン（緑の線）とレッドライン（赤の線）——へのアクセスも近接しています。これらの路線を使えば、市内中心部、商業エリア、大学、空港などの主要な場所へ素早く移動できます。',
-    'さらに、この地域は充実した公共交通網、地元の商店、生活に必要なサービスを備え、リスボンの各象徴的な地区へも簡単にアクセスできます。短期・長期滞在どちらにも最適な拠点です。',
+    'アルカロコ・ホーム・リスボンは、リスボンの中心部に位置する静かな住宅街にあり、あらゆるものが徒歩圏内です。',
+    'オディヴェラス地下鉄駅（イエローライン）— アパートから徒歩わずか3分。車なしで市内中心部へ直通アクセス。',
+    'この地域には地元の商店、レストラン、生活に必要なサービスが揃い、リスボンの象徴的な各地区へも簡単にアクセスできます。',
   ],
 };
 

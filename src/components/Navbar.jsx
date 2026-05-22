@@ -62,9 +62,9 @@ export default function Navbar() {
               onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
               <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Alcaloko Home Lisbon" className="navbar__logo-img" />
               <span className="navbar__logo-name">
-                <span style={{ color: '#22c55e' }}>TIMI</span>
+                <span style={{ color: '#4ade80' }}>TIMI</span>
                 {' '}
-                <span style={{ color: '#9b1c1c' }}>Alcaloko Airbnb Lisboa</span>
+                <span style={{ color: '#f87171' }}>Alcaloko Airbnb Lisboa</span>
                 {' '}
                 <span style={{ color: '#cbd5e1', fontSize: '0.8em', letterSpacing: '0.04em' }}>No.001</span>
               </span>
