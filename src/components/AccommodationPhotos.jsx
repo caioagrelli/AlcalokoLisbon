@@ -34,13 +34,18 @@ const ROOM_CAPACITY = [
  * ════════════════════════════════════════════════════════════════
  */
 const photos = [
-  // ── Todos — mix dos quartos ──────────────────────────
-  { src: pub('/photos/rooms/room1/r1_1.png'), alt: 'Vermelho', span: 'large',  room: 0 },
-  { src: pub('/photos/rooms/room2/r2_1.png'), alt: 'Verde',    span: 'normal', room: 0 },
-  { src: pub('/photos/rooms/room3/r3_1.png'), alt: 'Azul',     span: 'normal', room: 0 },
-  { src: pub('/photos/rooms/room1/r1_3.png'), alt: 'Vermelho', span: 'normal', room: 0 },
-  { src: pub('/photos/rooms/room2/r2_3.png'), alt: 'Verde',    span: 'large',  room: 0 },
-  { src: pub('/photos/rooms/room3/r3_3.png'), alt: 'Azul',     span: 'normal', room: 0 },
+  // ── Todos (room: 0) — fotos da pasta /photos/all ────
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142139.png'), alt: 'All', span: 'large',  room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142151.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142232.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142256.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142428.png'), alt: 'All', span: 'large',  room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142530.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142639.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142706.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142711.png'), alt: 'All', span: 'large',  room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142722.png'), alt: 'All', span: 'normal', room: 0 },
+  { src: pub('/photos/all/Captura de tela 2026-05-21 142747.png'), alt: 'All', span: 'normal', room: 0 },
 
   // ── Quarto 1 (room: 1) ──────────────────────────────
   { src: pub('/photos/rooms/room1/r1_1.png'), alt: 'Vermelho', span: 'large',  room: 1 },
