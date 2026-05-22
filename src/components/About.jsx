@@ -5,37 +5,37 @@ import { useLanguage } from '../context/LanguageContext';
 const timiDesc = {
   pt: [
     'O Alcaloko Home Lisbon está situado no coração de Lisboa, numa zona residencial tranquila com tudo a poucos passos.',
-    'Estação de Metro Alameda (Linha Amarela) — a apenas 3 minutos a pé do apartamento. Acesso direto ao centro da cidade sem necessidade de carro.',
+    'Estação de Metro Alameda (Linha Vermelha) — a apenas 2 minutos a pé do apartamento. Acesso direto ao centro da cidade sem necessidade de carro.',
     'A área dispõe ainda de comércio local, restaurantes, serviços essenciais e acesso fácil aos bairros mais emblemáticos de Lisboa.',
   ],
   en: [
     'Alcaloko Home Lisbon is located in the heart of Lisbon, in a quiet residential area with everything just steps away.',
-    'Alameda Metro Station (Yellow Line) — just 3 minutes\' walk from the apartment. Direct access to the city centre with no need for a car.',
+    'Alameda Metro Station (Red Line) — just 2 minutes\' walk from the apartment. Direct access to the city centre with no need for a car.',
     'The area also has local shops, restaurants, essential services and easy access to Lisbon\'s most iconic neighbourhoods.',
   ],
   fr: [
     'L\'Alcaloko Home Lisbon est situé au cœur de Lisbonne, dans un quartier résidentiel calme avec tout à portée de main.',
-    'Station de Métro Alameda (Ligne Jaune) — à seulement 3 minutes à pied de l\'appartement. Accès direct au centre-ville sans besoin de voiture.',
+    'Station de Métro Alameda (Ligne Rouge) — à seulement 2 minutes à pied de l\'appartement. Accès direct au centre-ville sans besoin de voiture.',
     'Le quartier dispose aussi de commerces locaux, restaurants, services essentiels et d\'un accès facile aux quartiers emblématiques de Lisbonne.',
   ],
   es: [
     'El Alcaloko Home Lisbon está ubicado en el corazón de Lisboa, en una zona residencial tranquila con todo a pocos pasos.',
-    'Estación de Metro Alameda (Línea Amarilla) — a solo 3 minutos a pie del apartamento. Acceso directo al centro de la ciudad sin necesidad de coche.',
+    'Estación de Metro Alameda (Línea Roja) — a solo 2 minutos a pie del apartamento. Acceso directo al centro de la ciudad sin necesidad de coche.',
     'La zona cuenta también con comercios locales, restaurantes, servicios esenciales y fácil acceso a los barrios más emblemáticos de Lisboa.',
   ],
   de: [
     'Das Alcaloko Home Lisbon liegt im Herzen von Lissabon, in einem ruhigen Wohngebiet mit allem in unmittelbarer Nähe.',
-    'U-Bahn-Station Alameda (Gelbe Linie) — nur 3 Gehminuten von der Wohnung entfernt. Direkter Zugang zum Stadtzentrum ohne Auto.',
+    'U-Bahn-Station Alameda (Rote Linie) — nur 2 Gehminuten von der Wohnung entfernt. Direkter Zugang zum Stadtzentrum ohne Auto.',
     'Das Viertel bietet zudem lokale Geschäfte, Restaurants, wichtige Dienstleistungen und einfachen Zugang zu Lissabons emblematischen Stadtvierteln.',
   ],
   it: [
     'L\'Alcaloko Home Lisbon si trova nel cuore di Lisbona, in una zona residenziale tranquilla con tutto a pochi passi.',
-    'Stazione Metro Alameda (Linea Gialla) — a soli 3 minuti a piedi dall\'appartamento. Accesso diretto al centro città senza bisogno di auto.',
+    'Stazione Metro Alameda (Linea Rossa) — a soli 2 minuti a piedi dall\'appartamento. Accesso diretto al centro città senza bisogno di auto.',
     'La zona dispone anche di negozi locali, ristoranti, servizi essenziali e facile accesso ai quartieri più iconici di Lisbona.',
   ],
   ja: [
     'アルカロコ・ホーム・リスボンは、リスボンの中心部に位置する静かな住宅街にあり、あらゆるものが徒歩圏内です。',
-    'オディヴェラス地下鉄駅（イエローライン）— アパートから徒歩わずか3分。車なしで市内中心部へ直通アクセス。',
+    'オディヴェラス地下鉄駅（レッドライン）— アパートから徒歩わずか3分。車なしで市内中心部へ直通アクセス。',
     'この地域には地元の商店、レストラン、生活に必要なサービスが揃い、リスボンの象徴的な各地区へも簡単にアクセスできます。',
   ],
 };
